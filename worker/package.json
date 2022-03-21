@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "datapult-worker",
+  "version": "1.0.0",
+  "description": "Backend for the datapult demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "@TeamZeroDev",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "itty-router": "^2.4.8"
+  }
+}

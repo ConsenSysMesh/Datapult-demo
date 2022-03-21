@@ -1,0 +1,15 @@
+type = "webpack"
+compatibility_date = "2022-01-07"
+account_id = "XXXXXXX"
+workers_dev = true
+zone_id = ""
+
+kv_namespaces = [ 
+	 { binding = "CARDS_KV", id = "XXXXXXX", preview_id = "XXXXXX" }
+]
+
+name = "card-dev"
+route = "dev.dplt.site/*"
+vars = { 	ENVIRONMENT = "dev", CARD_ROOT = "http://127.0.0.1:8787"}
+
+]
